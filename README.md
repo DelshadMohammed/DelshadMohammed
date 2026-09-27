@@ -2,9 +2,13 @@
 
 <img src="./profile-picture.jpg" width="190" alt="Delshad Mohammed">
 
+<br><br>
+
+<img src="./delshad-ascii.svg" width="800" alt="Animated Delshad ASCII graphic">
+
 <h1>Hi 👋 I'm Delshad Mohammed</h1>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub;Building+quietly+behind+the+scenes;Always+learning+and+creating" alt="Typing animation">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Welcome%20to%20my%20GitHub%3BBuilding%20quietly%20behind%20the%20scenes%3BAlways%20learning%20and%20creating" alt="Typing animation">
 
 <br><br>
 
