@@ -41,6 +41,6 @@ Some of my work is currently private, so more details will be shared at the righ
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2500&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=Thanks+for+visiting+my+profile+👋;Have+a+great+day!" alt="Footer animation">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=18&duration=2500&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=Thanks%20for%20visiting%20my%20profile%3BHave%20a%20great%20day" alt="Footer animation">
 
 </div>
