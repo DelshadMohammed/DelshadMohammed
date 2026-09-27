@@ -1,18 +1,10 @@
 <div align="center">
 
-<img src="./profile-picture.jpg" width="190" alt="Delshad Mohammed">
+<img src="./delshad-ascii.svg" width="700" alt="Animated Delshad Mohammed profile">
 
 <br><br>
 
-<img src="./delshad-ascii.svg" width="800" alt="Animated Delshad ASCII graphic">
-
-<h1>Hi 👋 I'm Delshad Mohammed</h1>
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Welcome%20to%20my%20GitHub%3BBuilding%20quietly%20behind%20the%20scenes%3BAlways%20learning%20and%20creating" alt="Typing animation">
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=DelshadMohammed&label=Profile%20Views&color=0EA5E9&style=for-the-badge" alt="Profile views">
+<img src="https://komarev.com/ghpvc/?username=DelshadMohammed&label=PROFILE%20VIEWS&color=38BDF8&style=flat-square" alt="Profile views">
 
 </div>
 
@@ -35,16 +27,6 @@ Some of my work is currently private, so more details will be shared at the righ
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=DelshadMohammed&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub statistics">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DelshadMohammed&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=DelshadMohammed&theme=tokyonight&hide_border=true" alt="GitHub streak">
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=18&duration=2500&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=Thanks%20for%20visiting%20my%20profile%3BHave%20a%20great%20day" alt="Footer animation">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=20&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Welcome%20to%20my%20GitHub%3BAlways%20learning%20and%20creating" alt="Animated text">
 
 </div>
