@@ -1,12 +1,8 @@
 <div align="center">
 
-<img src="./delshad-ascii.svg" width="700" alt="Animated Delshad Mohammed profile">
+<img src="./delshad-premium-profile.png.jpg" width="700" alt="Delshad Mohammed premium profile graphic">
 
 <br><br>
-
-<img src="./profile-picture.jpg.png" width="170" alt="Delshad Mohammed">
-
-<h1>Delshad Mohammed</h1>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=22&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Welcome%20to%20my%20GitHub%3BBuilding%20quietly%20behind%20the%20scenes%3BAlways%20learning%20and%20creating" alt="Animated introduction">
 
