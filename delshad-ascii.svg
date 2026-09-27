@@ -1,22 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="520" viewBox="0 0 700 520">
+  <defs>
+    <clipPath id="photoCircle">
+      <circle cx="350" cy="170" r="125"/>
+    </clipPath>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
   <style>
-    .line {
-      font-family: monospace;
-      font-size: 18px;
-      fill: #38bdf8;
-      white-space: pre;
+    .background {
+      fill: #0f172a;
     }
 
-    .title {
-      font-family: monospace;
-      font-size: 28px;
-      font-weight: bold;
+    .ring {
+      fill: none;
+      stroke: url(#ring);
+      stroke-width: 8;
+      stroke-dasharray: 790;
+      stroke-dashoffset: 790;
+      animation: drawRing 2s ease-out forwards, rotateRing 8s linear 2s infinite;
+      transform-origin: 350px 170px;
+      filter: url(#glow);
+    }
+
+    .photo {
+      opacity: 0;
+      animation: showPhoto 1.5s ease-out 1s forwards;
+    }
+
+    .name {
       fill: #ffffff;
+      font-family: monospace;
+      font-size: 34px;
+      font-weight: bold;
+      text-anchor: middle;
+      opacity: 0;
+      animation: showName 0.1s linear 3s forwards;
+    }
+
+    .subtitle {
+      fill: #38bdf8;
+      font-family: monospace;
+      font-size: 17px;
+      text-anchor: middle;
+      opacity: 0;
+      animation: fadeIn 1s ease-out 5s forwards;
     }
 
     .cursor {
       fill: #38bdf8;
-      animation: blink 1s step-end infinite;
+      opacity: 0;
+      animation: cursorAppear 0.1s linear 3s forwards, blink 1s step-end 3s infinite;
+    }
+
+    @keyframes drawRing {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes rotateRing {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes showPhoto {
+      from {
+        opacity: 0;
+        transform: scale(0.7);
+        transform-origin: 350px 170px;
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+        transform-origin: 350px 170px;
+      }
+    }
+
+    @keyframes showName {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes cursorAppear {
+      to {
+        opacity: 1;
+      }
     }
 
     @keyframes blink {
@@ -24,22 +116,28 @@
         opacity: 0;
       }
     }
-
-    .glow {
-      filter: drop-shadow(0 0 5px #38bdf8);
-    }
   </style>
 
-  <rect width="100%" height="100%" rx="18" fill="#0f172a"/>
+  <rect class="background" width="700" height="520" rx="24"/>
 
-  <text x="40" y="55" class="title glow">DELShad Mohammed</text>
+  <circle class="ring" cx="350" cy="170" r="125"/>
 
-  <text x="40" y="100" class="line">      ______     _           _               _</text>
-  <text x="40" y="125" class="line">     |  _  |___| |__   __ _| |__   __ _  __| |</text>
-  <text x="40" y="150" class="line">     | | | / __| '_ \ / _` | '_ \ / _` |/ _` |</text>
-  <text x="40" y="175" class="line">     | |_| \__ \ | | | (_| | | | | (_| | (_| |</text>
-  <text x="40" y="200" class="line">     |____/|___/_| |_|\__,_|_| |_|\__,_|\__,_|</text>
+  <image
+    class="photo"
+    href="./profile-picture.jpg"
+    x="225"
+    y="45"
+    width="250"
+    height="250"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#photoCircle)"
+  />
 
-  <text x="40" y="235" class="line">     Building quietly behind the scenes</text>
-  <rect x="405" y="218" width="10" height="22" class="cursor"/>
+  <text class="name" x="350" y="370">Delshad Mohammed</text>
+
+  <rect class="cursor" x="565" y="344" width="10" height="34"/>
+
+  <text class="subtitle" x="350" y="420">
+    Welcome to my GitHub
+  </text>
 </svg>
